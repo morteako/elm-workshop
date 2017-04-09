@@ -40,7 +40,7 @@ type SnakeStatus
 
 mapSize : Int
 mapSize =
-    4
+    15
 
 
 tempInit : Model
