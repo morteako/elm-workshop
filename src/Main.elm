@@ -247,7 +247,7 @@ changeDirection keyNr model =
 
 subscriptions : Model -> Sub Msg
 subscriptions model =
-    Sub.batch [ Keyboard.downs KeyMsg, Time.every (700 * Time.millisecond) TimeMsg ]
+    Sub.batch [ Keyboard.downs KeyMsg, Time.every (300 * Time.millisecond) TimeMsg ]
 
 
 
